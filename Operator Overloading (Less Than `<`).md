@@ -25,7 +25,27 @@ To write a Python program that demonstrates **operator overloading** by overload
 ---
 
 ## 💻 Program
+```
+class Fish:
+    def type(self):
+        print("fish")
 
+
+class Shark(Fish):
+    def type(self):
+        print("shark")
+
+
+obj_goldfish = Fish()
+obj_hammerhead = Shark()
+
+obj_goldfish.type()
+obj_hammerhead.type()
+```
 ## Output
+<img width="839" height="289" alt="image" src="https://github.com/user-attachments/assets/391a9840-6533-4f6e-89f1-ade7ed1cc655" />
+
+## Result
+Thus,the program is executed successfully
 
 ## Result
